@@ -1,1 +1,3 @@
-Static site package for 3 Wines Music. Upload all files and folders to your GitHub Pages repo root. Update Formspree endpoints and any remaining embed URLs as needed.
+Upload everything in this ZIP to the root of your GitHub repository.
+Keep the images folder exactly as-is.
+All HTML files now point to a single flat /images folder with no subfolders.
