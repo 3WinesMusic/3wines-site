@@ -504,6 +504,7 @@ header.site-header,
   max-width: 100%;
   height: auto;
   object-fit: contain;
+  background: transparent;
   object-position: center top;
   margin: 0 auto;
 }
