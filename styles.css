@@ -15,7 +15,7 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   font-family: 'Josefin Sans', Arial, sans-serif;
-  background: var(--bg);
+  background: #f7f7f7);
   color: var(--text);
   line-height: 1.65;
 }
