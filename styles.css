@@ -14,7 +14,8 @@
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
-  font-family: 'Josefin Sans', Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   background: f7f7f7);
   color: var(--text);
   line-height: 1.65;
@@ -25,8 +26,8 @@ p { margin: 0 0 1rem; }
 h1,h2,h3,h4 {
   margin: 0 0 1rem;
   line-height: 1.15;
-  font-family: 'Josefin Sans', Arial, sans-serif;
-  font-weight: 600;
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
   letter-spacing: .02em;
 }
 h1 { font-size: clamp(2.7rem, 6vw, 5rem); }
