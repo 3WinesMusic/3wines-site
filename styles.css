@@ -417,7 +417,7 @@ p {
   }
 
   .logo-tile img {
-    max-height: 100px
+    max-height: 200px
     width: auto;
   object-fit: contain;
   }
@@ -537,7 +537,7 @@ header.site-header,
   display: block;
   width: min(100%, 1366px);
   max-width: 1366px;
-  height: 200px;
+  height: 400px;
   object-fit: contain;
   object-position: center center;
   margin: 0 auto;
