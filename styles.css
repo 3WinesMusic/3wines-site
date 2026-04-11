@@ -556,8 +556,8 @@ header.site-header,
 
 /* Keep the header logo closer to original Wix scale */
 .brand-logo {
-  width: 34px !important;
-  height: 34px !important;
+  width: 75px !important;
+  height: 75px !important;
   object-fit: contain !important;
   border-radius: 50% !important;
 }
