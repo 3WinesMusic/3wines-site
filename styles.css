@@ -584,21 +584,13 @@ header.site-header,
     height: 30px !important;
   }
 }
-/* LISTEN PAGE */
-
-.listen-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 20px;
-}
-
-.reel-container {
+.listen-embed {
   width: 100%;
   max-width: 900px;
+  margin: 0 auto;
 }
 
-.reel-container iframe {
+.listen-embed iframe {
   width: 100%;
   height: 500px;
   border: none;
