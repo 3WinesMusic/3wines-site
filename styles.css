@@ -1,6 +1,6 @@
 :root {
   --bg: #f4f1ee;
-  --surface: #ffffff;
+  --surface: #f6f2ee;
   --text: #111111;
   --muted: #555555;
   --line: #d5cec8;
@@ -120,7 +120,7 @@ h3 { font-size: clamp(1.45rem, 2.8vw, 2rem); }
 .feature-panel,
 .poster-card {
   background: var(--surface);
-  border: 1px solid rgba(31,31,31,.07);
+  border: 1px solid rgba(0,0,0,.06);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
