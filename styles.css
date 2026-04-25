@@ -1,8 +1,8 @@
 :root {
   --bg: #f4f1ee;
   --surface: #ffffff;
-  --text: #1f1f1f;
-  --muted: #666;
+  --text: #111111;
+  --muted: #555555;
   --line: #d5cec8;
   --accent: #111;
   --max: 1180px;
@@ -375,15 +375,6 @@ p {
   line-height: 1.72;
 }
 
-/* Collaborator/logo areas closer to original site */
-.grid-logos,
-.logo-grid,
-.selected-collaborators {
-  width: 160px;
-  max-width: 100%;
-  height: auto;
-  transition: transform 0.2s ease;
-}}
 
 .logo-tile {
   background: transparent !important;
@@ -411,15 +402,6 @@ p {
     height: clamp(130px, 34vw, 240px);
     width: min(100%, 900px);
   }
-
-  .grid-logos,
-  .logo-grid,
-  .selected-collaborators {
-  width: 160px;
-  max-width: 100%;
-  height: auto;
-  transition: transform 0.2s ease;
-}  }
 
   .logo-tile img {
     max-height: 70px;
@@ -527,7 +509,7 @@ header.site-header,
 /* ===== Wix-exact home hero correction ===== */
 .hero--wix-home {
   width: 100%;
-  background: #ffffff !important;
+  background: var(--bg) !important;
   padding: 0 !important;
   margin: 0 0 2.25rem 0 !important;
   display: flex;
@@ -544,7 +526,7 @@ header.site-header,
   object-fit: contain;
   object-position: center center;
   margin: 0 auto;
-  background: #ffffff;
+  background: var(--bg) !important;
 }
 
 /* kill previous banner sizing/cropping */
@@ -899,4 +881,32 @@ h1, h2, h3, h4, h5, h6,
   padding-left: 4px;
   font-size: 1.05rem;
   font-weight: 600;
+}
+
+.grid-logos {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 2.25rem 3rem;
+}
+
+.logo-tile {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 1rem !important;
+  min-height: 140px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.logo-tile img {
+  display: block !important;
+  width: auto !important;
+  max-width: 220px !important;
+  max-height: 125px !important;
+  object-fit: contain !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  filter: none !important;
 }
