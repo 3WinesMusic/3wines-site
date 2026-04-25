@@ -837,9 +837,10 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .team-card h3 {
-  margin: .25rem 0 0;
+  margin: 10px 0 4px;
+  padding-left: 4px;
   font-size: 1.05rem;
-  line-height: 1.2;
+  font-weight: 600;
 }
 
 .team-card .role {
@@ -888,7 +889,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .team-card h3 {
-  margin: 6px 0 0;
+  margin: 10px 0 4px;
+  padding-left: 4px;
   font-size: 1.05rem;
   font-weight: 600;
 }
