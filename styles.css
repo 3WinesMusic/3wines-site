@@ -160,7 +160,7 @@ h3 { font-size: clamp(1.45rem, 2.8vw, 2rem); }
 .project-card img, .team-card img, .poster-card img, .credit-card img {
   border-radius: calc(var(--radius) - 6px) calc(var(--radius) - 6px) 0 0;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .project-card img { aspect-ratio: 3 / 4; }
 .credit-card img { aspect-ratio: 2 / 3; }
