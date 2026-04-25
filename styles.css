@@ -36,7 +36,7 @@ h3 { font-size: clamp(1.45rem, 2.8vw, 2rem); }
   font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #777;
+  color: #666;
 }
 .wrapper {
   width: min(calc(100% - 2rem), var(--max));
@@ -846,7 +846,7 @@ h1, h2, h3, h4, h5, h6,
   font-size: .78rem;
   letter-spacing: .08em;
   text-transform: uppercase;
-  color: #777;
+  color: #666;
 }
 
 .video-embed iframe {
