@@ -379,8 +379,11 @@ p {
 .grid-logos,
 .logo-grid,
 .selected-collaborators {
-  gap: 2.25rem 3rem;
-}
+  width: 160px;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.2s ease;
+}}
 
 .logo-tile {
   background: transparent !important;
@@ -412,8 +415,11 @@ p {
   .grid-logos,
   .logo-grid,
   .selected-collaborators {
-    gap: 1.25rem 1.5rem;
-  }
+  width: 160px;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.2s ease;
+}  }
 
   .logo-tile img {
     max-height: 70px;
