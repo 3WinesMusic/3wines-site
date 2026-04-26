@@ -784,7 +784,7 @@ h1, h2, h3, h4, h5, h6,
   margin-top: .75rem;
 }
 
-.site-nav a[href="lancetrevino.html"]::after {
+.site-nav a[href="news.html"]::after {
   content: "";
 }
 
