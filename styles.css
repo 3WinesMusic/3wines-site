@@ -942,7 +942,7 @@ h1, h2, h3, h4, h5, h6,
   object-fit: contain !important;
   object-position: center center !important;
   background: #fff;
-  padding: 10px;
+  padding: 1px;
   border-radius: 12px 12px 0 0;
 }
 
