@@ -931,6 +931,7 @@ h1, h2, h3, h4, h5, h6,
 .credit-card img,
 .project-card img {
   object-fit: contain !important;
-  object-position: center center !important;
+  object-position: center;
   background: #fff;
+  padding: 6px; 
 }
