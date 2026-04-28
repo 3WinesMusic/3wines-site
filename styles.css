@@ -936,14 +936,6 @@ h1, h2, h3, h4, h5, h6,
   object-position: center;
 }
 
-img[src*="snowpiercer"],
-img[src*="Snowpiercer"] {
-  object-fit: contain !important;
-  object-position: center center !important;
-  background: #fff;
-  padding: 0 !important;
-}
-
 img[src*="oval"] {
   object-position: center 20%;
 }
