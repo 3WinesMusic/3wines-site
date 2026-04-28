@@ -937,7 +937,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 img[src*="snowpiercer"] {
-  object-position: center 15%;
+  object-position: center 10%;
 }
 
 img[src*="oval"] {
