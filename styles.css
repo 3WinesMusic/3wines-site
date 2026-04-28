@@ -918,3 +918,12 @@ h1, h2, h3, h4, h5, h6,
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   justify-items: center;
 }
+
+.project-card,
+.credit-card {
+  transform: scale(1.01);
+}
+
+.credits-grid {
+  gap: 1.6rem;
+}
