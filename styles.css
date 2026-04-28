@@ -927,3 +927,35 @@ h1, h2, h3, h4, h5, h6,
 .credits-grid {
   gap: 1.6rem;
 }
+
+.project-card img,
+.credit-card img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  object-position: center;
+}
+
+img[src*="snowpiercer"] {
+  object-position: center 15%;
+}
+
+img[src*="oval"] {
+  object-position: center 20%;
+}
+
+img[src*="see"] {
+  object-position: center 10%;
+}
+
+img[src*="youth"] {
+  object-position: center 12%;
+}
+
+img[src*="scream"] {
+  object-position: center 25%;
+}
+
+img[src*="hanazuki"] {
+  object-position: center 12%;
+}
