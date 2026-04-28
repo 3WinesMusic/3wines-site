@@ -928,13 +928,9 @@ h1, h2, h3, h4, h5, h6,
   gap: 1.6rem;
 }
 
-.project-card img,
-.credit-card img {
-  object-fit: cover;
-  transform: scale(0.99);
-}
-
-.project-card,
-.credit-card {
-  overflow: hidden;
+.credit-card img,
+.project-card img {
+  object-fit: contain !important;
+  object-position: center center !important;
+  background: #fff;
 }
