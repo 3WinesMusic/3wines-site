@@ -1000,6 +1000,7 @@ img[src*="hanazuki"] {
   fill: #fff !important;
 }
 
-.socials a:hover svg path {
+.socials a:hover svg * {
   fill: #fff !important;
+  stroke: #fff !important;
 }
