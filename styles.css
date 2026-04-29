@@ -1005,3 +1005,7 @@ img[src*="hanazuki"] {
 .team-card {
   overflow: hidden;
 }
+
+html, body {
+  overflow-x: hidden;
+}
