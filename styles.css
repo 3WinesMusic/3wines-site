@@ -1004,3 +1004,11 @@ img[src*="hanazuki"] {
   fill: #fff !important;
   stroke: #fff !important;
 }
+
+.team-card-text {
+  padding: 18px 24px 22px;
+}
+
+.team-card {
+  overflow: hidden;
+}
