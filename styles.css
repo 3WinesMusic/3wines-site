@@ -1010,3 +1010,13 @@ img[src*="hanazuki"] {
 html, body {
   overflow-x: hidden;
 }
+
+.bio-drawer-close {
+  top: 1rem;
+  right: 1rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
