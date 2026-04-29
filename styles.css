@@ -1020,3 +1020,15 @@ html, body {
   align-items: center;
   justify-content: center;
 }
+
+.bio-drawer {
+  overflow: hidden;
+}
+
+.bio-drawer:not(.open) {
+  visibility: hidden;
+}
+
+.bio-drawer:not(.open) .bio-drawer-panel {
+  box-shadow: none;
+}
