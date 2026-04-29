@@ -955,3 +955,13 @@ img[src*="scream"] {
 img[src*="hanazuki"] {
   object-position: center 12%;
 }
+
+.socials svg {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.socials a {
+  color: #000; /* or your text color */
+}
