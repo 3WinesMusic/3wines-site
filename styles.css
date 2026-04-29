@@ -999,3 +999,7 @@ img[src*="hanazuki"] {
 .socials a:hover svg text {
   fill: #fff !important;
 }
+
+.socials a:hover svg path {
+  fill: #fff !important;
+}
