@@ -861,12 +861,6 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
-
-/* FINAL TEAM FIX */
-.team-card {
-  overflow: visible;
-}
-
 .team-card img {
   width: 100%;
   aspect-ratio: 4 / 5;
@@ -876,12 +870,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .team-card .card-body {
-  padding: 12px 4px 0;
+  padding: 18px 22px 20px;
 }
 
 .team-card h3 {
   margin: 10px 0 4px;
-  padding-left: 4px;
   font-size: 1.05rem;
   font-weight: 600;
 }
