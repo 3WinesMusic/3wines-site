@@ -909,8 +909,10 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .grid-logos {
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, max-content));
+  justify-content: center;
+  gap: 2rem 3rem;
 }
 
 .project-card,
@@ -1032,3 +1034,13 @@ html, body {
 .bio-drawer:not(.open) .bio-drawer-panel {
   box-shadow: none;
 }
+
+.logo-tile {
+  background: transparent !important;
+}
+
+.logo-tile img {
+  background: transparent;
+  mix-blend-mode: multiply;
+}
+
