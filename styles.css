@@ -965,3 +965,37 @@ img[src*="hanazuki"] {
 .socials a {
   color: #000; /* or your text color */
 }
+
+/* Base icon sizing */
+.socials svg {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+/* ===== DEFAULT BRAND COLORS ===== */
+.icon-facebook path {
+  fill: #1877f2; /* Facebook blue */
+}
+
+.icon-instagram path {
+  fill: #e1306c; /* Instagram pink */
+}
+
+.icon-imdb rect {
+  fill: #f5c518; /* IMDb yellow */
+}
+
+.icon-imdb text {
+  fill: #000;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== HOVER STATE (matches your black circle hover) ===== */
+.socials a:hover svg path,
+.socials a:hover svg rect,
+.socials a:hover svg text {
+  fill: #fff !important;
+}
