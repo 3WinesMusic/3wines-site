@@ -1338,3 +1338,12 @@ html, body {
   max-width: 300px;
   max-height: 205px;
 }
+
+.lance-hero {
+  max-height: 520px;
+  overflow: hidden;
+}
+
+.lance-hero .hero-wix-home-image {
+  object-position: center 35%;
+}
