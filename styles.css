@@ -1272,3 +1272,17 @@ html, body {
     margin: 0 !important;
   }
 }
+
+@media (max-width: 560px) {
+  .reels-tabs {
+    position: static !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: .75rem !important;
+    padding: 0 !important;
+    margin: 0 auto 2rem !important;
+    background: transparent !important;
+  }
+}
