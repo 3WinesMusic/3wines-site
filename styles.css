@@ -1347,3 +1347,21 @@ html, body {
 .lance-hero .hero-wix-home-image {
   object-position: center 35%;
 }
+
+.about-split {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-right img {
+  width: 100%;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .about-split {
+    grid-template-columns: 1fr;
+  }
+}
