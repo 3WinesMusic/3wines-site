@@ -1229,3 +1229,21 @@ html, body {
     margin: 0 !important;
   }
 }
+
+/* Fix image not filling card */
+.team-card {
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.team-card img {
+  width: 100% !important;
+  height: auto !important;
+  display: block;
+  border-radius: 18px 18px 0 0 !important;
+}
+
+/* Keep text spacing only */
+.team-card .card-body {
+  padding: 1rem 1rem 1.2rem !important;
+}
