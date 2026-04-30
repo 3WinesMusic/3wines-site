@@ -1134,3 +1134,67 @@ html, body {
     object-fit: contain !important;
   }
 }
+
+@media (max-width: 560px) {
+
+  /* 1. Remove white box around Reels buttons */
+  .reels-tabs {
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 auto 2rem !important;
+  }
+
+
+  /* 2. Mobile News formatting */
+  .page-intro h1,
+  .section h1,
+  .news-title,
+  h1 {
+    font-size: clamp(2.2rem, 12vw, 3.4rem) !important;
+    line-height: 1.05 !important;
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+  }
+
+  .split,
+  .news-item,
+  .feature-panel {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+  }
+
+  .feature-panel,
+  .info-panel,
+  .longform {
+    padding: 1.25rem !important;
+  }
+
+  .feature-image {
+    order: -1;
+  }
+
+  .feature-image img,
+  .news-item img {
+    width: 100% !important;
+    max-width: 100% !important;
+    aspect-ratio: 16 / 9 !important;
+    object-fit: cover !important;
+    border-radius: 14px !important;
+  }
+
+  .feature-panel h2,
+  .feature-panel h3,
+  .news-item h2,
+  .news-item h3 {
+    font-size: 1.6rem !important;
+    line-height: 1.15 !important;
+  }
+
+  .feature-panel p,
+  .news-item p {
+    font-size: 1rem !important;
+    line-height: 1.55 !important;
+    font-weight: 600 !important;
+  }
+}
