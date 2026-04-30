@@ -1143,3 +1143,48 @@ html, body {
     padding: 0 !important;
     margin: 0 auto 2rem !important;
   }
+}
+
+}
+
+/* Mobile News: title → image → text */
+@media (max-width: 560px) {
+  .split {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.25rem !important;
+  }
+
+  .split .feature-panel {
+    display: contents !important;
+  }
+
+  .split .feature-panel h1,
+  .split .feature-panel h2,
+  .split .feature-panel h3 {
+    order: 1 !important;
+    font-size: 2rem !important;
+    line-height: 1.12 !important;
+    margin: 0 0 .75rem !important;
+  }
+
+  .split .feature-image {
+    order: 2 !important;
+  }
+
+  .split .feature-image img {
+    width: 68% !important;
+    max-width: 240px !important;
+    aspect-ratio: 1 / 1 !important;
+    object-fit: cover !important;
+    border-radius: 18px !important;
+    margin: 0 auto 1rem !important;
+  }
+
+  .split .feature-panel p {
+    order: 3 !important;
+    font-size: 1rem !important;
+    line-height: 1.55 !important;
+    margin-bottom: 1rem !important;
+  }
+}
