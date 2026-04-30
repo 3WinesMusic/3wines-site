@@ -1178,12 +1178,12 @@ html, body {
   }
 
   /* Image styling (slightly bigger now) */
-  .section .wrapper img {
-    width: 85% !important;
-    max-width: 300px !important;
-    border-radius: 18px !important;
-    margin: 0 auto 1rem !important;
-  }
+ .news-page .section .wrapper img {
+  width: 85% !important;
+  max-width: 300px !important;
+  border-radius: 18px !important;
+  margin: 0 auto 1rem !important;
+}
 
   /* Title sizing */
   .section h1 {
