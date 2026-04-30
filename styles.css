@@ -188,11 +188,6 @@ h3 { font-size: clamp(1.45rem, 2.8vw, 2rem); }
   justify-content: center;
   box-shadow: none;
 }
-.logo-tile img {
-  max-height: 78px;
-  width: auto;
-  object-fit: contain;
-}
 
 .embed-card iframe {
   width: 100%;
@@ -319,9 +314,6 @@ h1, h2, h3, h4 {
   .grid-logos {
     grid-template-columns: repeat(3, minmax(0,1fr));
   }
-  .logo-tile img {
-    max-height: 62px;
-  }
 }
 
 
@@ -381,10 +373,6 @@ p {
   border: 0 !important;
   box-shadow: none !important;
   padding: .25rem .5rem !important;
-}
-
-.logo-tile img {
-  max-height: 88px;
 }
 
 @media (min-width: 1100px) {
@@ -1329,16 +1317,6 @@ html, body {
   gap: 2rem;
 }
 
-.logo-tile {
-  min-height: 140px;
-  padding: 2rem;
-}
-
-.logo-tile img {
-  max-width: 300px;
-  max-height: 205px;
-}
-
 .lance-hero {
   max-height: 520px;
   overflow: hidden;
@@ -1364,4 +1342,12 @@ html, body {
   .about-split {
     grid-template-columns: 1fr;
   }
+}
+
+.logo-tile img {
+  width: auto !important;
+  height: auto !important;
+  max-width: 320px !important;   /* increase this if you want even bigger */
+  max-height: 220px !important;
+  object-fit: contain !important;
 }
