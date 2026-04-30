@@ -1351,3 +1351,12 @@ html, body {
   max-height: 150px !important;
   object-fit: contain !important;
 }
+
+.logo-tile {
+  width: 100%;
+  max-width: 220px;   /* controls spacing consistency */
+  height: 140px;      /* consistent row height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
