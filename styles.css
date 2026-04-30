@@ -1265,3 +1265,13 @@ html, body {
     padding: 1rem 1rem 1.2rem !important;
   }
 }
+
+@media (max-width: 560px) {
+  .project-card img,
+  .credit-card img,
+  .team-card img {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+  }
+}
