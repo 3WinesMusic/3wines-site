@@ -1347,7 +1347,7 @@ html, body {
 .logo-tile img {
   width: auto !important;
   height: auto !important;
-  max-width: 200px !important;   /* increase this if you want even bigger */
-  max-height: 100px !important;
+  max-width: 250px !important;   /* increase this if you want even bigger */
+  max-height: 150px !important;
   object-fit: contain !important;
 }
