@@ -1083,10 +1083,6 @@ html, body {
     gap: 1.4rem;
   }
 
-
-  /* 2. Mobile cards: show multiple cards at once */
- @media (max-width: 560px) {
-
   /* Our Work + Credits: 2 columns */
   .grid-3,
   .credits-grid {
