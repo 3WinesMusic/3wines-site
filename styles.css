@@ -1146,40 +1146,45 @@ html, body {
 
 @media (max-width: 560px) {
 
-  /* Target the News layout specifically */
+  /* Convert layout to column */
   .section .wrapper[style*="grid-template-columns"] {
     display: flex !important;
     flex-direction: column !important;
     gap: 1.25rem !important;
   }
 
-  /* TEXT block */
-  .section .wrapper > div:first-child {
+  /* Title first */
+  .section .wrapper > div:first-child h1 {
     order: 1;
   }
 
-  /* IMAGE block */
+  /* Move IMAGE above text */
   .section .wrapper > div:last-child {
     order: 2;
   }
 
-  /* IMAGE styling */
+  /* Move TEXT below image */
+  .section .wrapper > div:first-child p {
+    order: 3;
+  }
+
+  /* Allow reordering inside text container */
+  .section .wrapper > div:first-child {
+    display: contents;
+  }
+
+  /* Image styling (slightly bigger now) */
   .section .wrapper img {
-    width: 70% !important;
-    max-width: 260px !important;
+    width: 85% !important;
+    max-width: 300px !important;
     border-radius: 18px !important;
     margin: 0 auto 1rem !important;
   }
 
-  /* TEXT after image */
-  .section .wrapper p {
-    order: 3;
-  }
-
-  /* Clean up giant title */
+  /* Title sizing */
   .section h1 {
     font-size: 2rem !important;
     line-height: 1.1 !important;
+    margin-bottom: .5rem !important;
   }
-}
 }
