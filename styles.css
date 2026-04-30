@@ -1192,3 +1192,40 @@ html, body {
     margin-bottom: .5rem !important;
   }
 }
+
+@media (max-width: 560px) {
+
+  /* Team cards: keep 2-column mobile layout */
+  .team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 1rem !important;
+  }
+
+  .team-card {
+    border-radius: 18px !important;
+  }
+
+  .team-card img {
+    width: 100% !important;
+    aspect-ratio: 1 / 1 !important;
+    object-fit: cover !important;
+    border-radius: 14px !important;
+  }
+
+  .team-card .card-body {
+    padding: .8rem .75rem 1rem !important;
+  }
+
+  .team-card .role {
+    font-size: .68rem !important;
+    line-height: 1.25 !important;
+    letter-spacing: .12em !important;
+    margin-bottom: .5rem !important;
+  }
+
+  .team-card h3 {
+    font-size: .92rem !important;
+    line-height: 1.15 !important;
+    margin: 0 !important;
+  }
+}
