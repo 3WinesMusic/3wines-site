@@ -1292,16 +1292,18 @@ html, body {
   position: sticky;
   top: 88px;
   z-index: 1;
-  transition: opacity .2s ease, transform .2s ease;
+  transition: opacity .6s ease, transform .6s ease;
   will-change: opacity, transform;
 }
 
 .hero-wix-home-image {
-  transition: opacity .2s ease, transform .2s ease;
+  transform: scale(1.25); /* 👈 START BIGGER */
+  transition: opacity .8s ease, transform .8s ease;
   will-change: opacity, transform;
 }
 
+/* When scrolling */
 .hero--wix-home.hero-scrolled .hero-wix-home-image {
   opacity: 0;
-  transform: translateY(-80px) scale(.78);
+  transform: translateY(-140px) scale(.7); /* 👈 BIGGER movement */
 }
