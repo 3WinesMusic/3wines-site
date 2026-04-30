@@ -1207,9 +1207,7 @@ html, body {
 
   .team-card img {
     width: 100% !important;
-    aspect-ratio: 1 / 1 !important;
     object-fit: cover !important;
-    border-radius: 14px !important;
   }
 
   .team-card .card-body {
@@ -1246,4 +1244,24 @@ html, body {
 /* Keep text spacing only */
 .team-card .card-body {
   padding: 1rem 1rem 1.2rem !important;
+}
+
+@media (max-width: 560px) {
+  .team-card {
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .team-card img {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    aspect-ratio: 4 / 5 !important;
+    object-fit: cover !important;
+    border-radius: 18px 18px 0 0 !important;
+  }
+
+  .team-card .card-body {
+    padding: 1rem 1rem 1.2rem !important;
+  }
 }
