@@ -4,23 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lance Treviño | 3 Wines Music</title>
-  <meta name="description" content="Lance Treviño — composer, studio engineer, educator, and lead composer at 3 Wines Music." />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
 
+<!-- HEADER (MATCHES SITE EXACTLY) -->
 <header class="site-header">
   <div class="wrapper header-inner">
-    <a class="brand" href="index.html" aria-label="3 Wines Music home">
-      <img src="images/logo-header.jpg" alt="3 Wines Music logo" class="brand-logo" />
+    <a class="brand" href="index.html">
+      <img src="images/logo-header.jpg" class="brand-logo" />
     </a>
 
-    <nav class="site-nav" aria-label="Primary navigation">
+    <nav class="site-nav">
       <a href="index.html">Home</a>
       <a href="credits.html">Credits</a>
       <a href="reels.html">Reels</a>
@@ -29,157 +30,120 @@
 
     <div class="header-meta">
       <a class="email-link" href="mailto:lance@lancetrevino.com">lance@lancetrevino.com</a>
-      <div class="socials" aria-label="Social links">
-        <a href="https://www.facebook.com/profile.php?id=61552109822847" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-          <svg viewBox="0 0 24 24" class="icon-facebook">
-            <path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2.3v-2.9h2.3V9.8c0-2.3 1.4-3.6 3.5-3.6 1 0 2 .2 2 .2v2.2h-1.1c-1.1 0-1.4.7-1.4 1.4v1.7h2.4l-.4 2.9h-2v7A10 10 0 0 0 22 12z"/>
-          </svg>
-        </a>
-
-        <a href="https://www.instagram.com/3winesmusic/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-          <svg viewBox="0 0 24 24" class="icon-instagram">
-            <defs>
-              <radialGradient id="ig-gradient-lance" cx="30%" cy="107%" r="150%">
-                <stop offset="0%" stop-color="#fdf497"/>
-                <stop offset="5%" stop-color="#fdf497"/>
-                <stop offset="45%" stop-color="#fd5949"/>
-                <stop offset="60%" stop-color="#d6249f"/>
-                <stop offset="90%" stop-color="#285AEB"/>
-              </radialGradient>
-            </defs>
-            <rect x="2" y="2" width="20" height="20" rx="6" fill="url(#ig-gradient-lance)"/>
-            <circle cx="12" cy="12" r="4" fill="none" stroke="#fff" stroke-width="2"/>
-            <circle cx="17" cy="7" r="1.5" fill="#fff"/>
-          </svg>
-        </a>
-
-        <a href="https://www.imdb.com/name/nm4751787/" target="_blank" rel="noopener noreferrer" aria-label="IMDb">
-          <svg viewBox="0 0 64 32" class="icon-imdb">
-            <rect width="64" height="32" rx="6"></rect>
-            <text x="50%" y="55%" text-anchor="middle" dy=".3em">IMDb</text>
-          </svg>
-        </a>
-      </div>
     </div>
   </div>
 </header>
 
 <main>
 
-  <section class="hero hero--wix-home lance-hero">
-    <img src="images/Action Shot(1).png" alt="Lance Treviño composing" class="hero-wix-home-image" />
-  </section>
+<!-- HERO (SAFE VERSION — NO BROKEN BACKGROUND) -->
+<section class="hero hero--wix-home lance-hero">
+  <img src="images/lance-hero.png" class="hero-wix-home-image" />
+</section>
 
-  <section class="section">
-    <div class="wrapper">
-      <div class="center" style="margin-bottom:2rem;">
-        <h2>Lance Treviño</h2>
-        <p class="muted" style="max-width:64ch;margin:0 auto;">Composer · Studio Engineer · Educator</p>
-      </div>
-
-      <div class="about-grid">
-        <div>
-          <p class="muted">
-            Lance Treviño is an award-winning composer, studio engineer, and educator with professional experience across film, television, and video game scoring.
-          </p>
-
-          <p class="muted">
-            As CEO and lead composer of 3 Wines Music, Lance works with a wide range of collaborators to create thoughtful, cinematic, and story-driven music for visual media.
-          </p>
-
-          <p class="muted">
-            His work reflects a practical understanding of production, collaboration, and storytelling, bringing together composition, technology, and post-production experience.
-          </p>
-        </div>
-
-        <div class="card">
-          <img src="images/Headshot(1).png" alt="Lance Treviño headshot" />
-        </div>
-      </div>
+<!-- ABOUT -->
+<section class="section">
+  <div class="wrapper">
+    <div class="center" style="margin-bottom:2rem;">
+      <h2>Lance Treviño</h2>
+      <p class="muted">Composer · Studio Engineer · Educator</p>
     </div>
-  </section>
 
-  <section class="section">
-    <div class="wrapper">
-      <div class="center" style="margin-bottom:2rem;">
-        <h2>Selected Work</h2>
-      </div>
-
-      <div class="grid-3">
-        <article class="card project-card">
-          <img src="images/the-ones-who-live.jpg" alt="The Walking Dead: The Ones Who Live artwork" />
-          <div class="card-body">
-            <h3>The Walking Dead: The Ones Who Live</h3>
-          </div>
-        </article>
-
-        <article class="card project-card">
-          <img src="images/mortal-kombat-legends-snow-blind.png" alt="Mortal Kombat Legends: Snow Blind artwork" />
-          <div class="card-body">
-            <h3>Mortal Kombat Legends: Snow Blind</h3>
-          </div>
-        </article>
-
-        <article class="card project-card">
-          <img src="images/see-season-2.png" alt="See Season 2 artwork" />
-          <div class="card-body">
-            <h3>See Season 2</h3>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- EXACT SAME STUDIO COLLABORATIONS SECTION AS HOME PAGE -->
-  <section class="section">
-    <div class="wrapper">
-      <div class="center" style="margin-bottom:2rem;">
-        <h2>Studio collaborations</h2>
-      </div>
-
-      <div class="grid-logos">
-        <div class="logo-tile"><img src="images/universal.png" alt="Universal" /></div>
-        <div class="logo-tile"><img src="images/20th-century.png" alt="20th Century" /></div>
-        <div class="logo-tile"><img src="images/bbc.png" alt="BBC" /></div>
-        <div class="logo-tile"><img src="images/amc.png" alt="AMC" /></div>
-        <div class="logo-tile"><img src="images/vevo.png" alt="Vevo" /></div>
-        <div class="logo-tile"><img src="images/tnt.png" alt="TNT" /></div>
-        <div class="logo-tile"><img src="images/hasbro.png" alt="Hasbro" /></div>
-        <div class="logo-tile"><img src="images/fox-sports.png" alt="Fox Sports" /></div>
-        <div class="logo-tile"><img src="images/china-film-group.png" alt="China Film Group" /></div>
-        <div class="logo-tile"><img src="images/netflix.png" alt="Netflix" /></div>
-        <div class="logo-tile"><img src="images/showtime.png" alt="Showtime" /></div>
-        <div class="logo-tile"><img src="images/olm.png" alt="OLM" /></div>
-        <div class="logo-tile"><img src="images/logo-bet-plus.png" alt="BET+"></div>
-        <div class="logo-tile"><img src="images/logo-paramount-plus.png" alt="Paramount+"></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="wrapper contact-grid">
+    <div class="grid-2">
       <div>
-        <h2>Contact</h2>
-        <h3>Let's have a conversation.</h3>
+        <p class="muted">
+          Lance Treviño is an award-winning composer, studio engineer, and educator with professional experience across film, television, and video game scoring.
+        </p>
+
+        <p class="muted">
+          As CEO and lead composer of 3 Wines Music, Lance works with a wide range of collaborators to create thoughtful, cinematic, and story-driven music for visual media.
+        </p>
+
+        <p class="muted">
+          His work reflects a practical understanding of production, collaboration, and storytelling, bringing together composition, technology, and post-production experience.
+        </p>
       </div>
 
-      <div class="contact-card">
-        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-          <div class="form-row">
-            <label>First name<input type="text" name="first_name" /></label>
-            <label>Last name<input type="text" name="last_name" /></label>
-          </div>
-          <label>Email<input type="email" name="email" required /></label>
-          <label>Subject<input type="text" name="subject" /></label>
-          <label>Message<textarea name="message" placeholder="Tell us about your project."></textarea></label>
-          <button type="submit">Send</button>
-        </form>
+      <div class="card">
+        <img src="images/lance-headshot.png" />
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="section">
+  <div class="wrapper">
+    <div class="center" style="margin-bottom:2rem;">
+      <h2>Selected Work</h2>
+    </div>
+
+    <div class="grid-3">
+      <article class="card project-card">
+        <img src="images/the-ones-who-live.jpg" />
+        <div class="card-body"><h3>The Walking Dead: The Ones Who Live</h3></div>
+      </article>
+
+      <article class="card project-card">
+        <img src="images/mortal-kombat-legends-snow-blind.png" />
+        <div class="card-body"><h3>Mortal Kombat Legends: Snow Blind</h3></div>
+      </article>
+
+      <article class="card project-card">
+        <img src="images/see-season-2.png" />
+        <div class="card-body"><h3>See Season 2</h3></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- STUDIO COLLABS (EXACT MATCH) -->
+<section class="section">
+  <div class="wrapper">
+    <div class="center" style="margin-bottom:2rem;">
+      <h2>Studio collaborations</h2>
+    </div>
+
+    <div class="grid-logos">
+      <div class="logo-tile"><img src="images/universal.png"></div>
+      <div class="logo-tile"><img src="images/20th-century.png"></div>
+      <div class="logo-tile"><img src="images/bbc.png"></div>
+      <div class="logo-tile"><img src="images/amc.png"></div>
+      <div class="logo-tile"><img src="images/vevo.png"></div>
+      <div class="logo-tile"><img src="images/tnt.png"></div>
+      <div class="logo-tile"><img src="images/hasbro.png"></div>
+      <div class="logo-tile"><img src="images/fox-sports.png"></div>
+      <div class="logo-tile"><img src="images/china-film-group.png"></div>
+      <div class="logo-tile"><img src="images/netflix.png"></div>
+      <div class="logo-tile"><img src="images/showtime.png"></div>
+      <div class="logo-tile"><img src="images/olm.png"></div>
+      <div class="logo-tile"><img src="images/logo-bet-plus.png"></div>
+      <div class="logo-tile"><img src="images/logo-paramount-plus.png"></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section">
+  <div class="wrapper contact-grid">
+    <div>
+      <h2>Contact</h2>
+      <h3>Let's have a conversation.</h3>
+    </div>
+
+    <div class="contact-card">
+      <form>
+        <label>Email<input type="email" required></label>
+        <label>Message<textarea></textarea></label>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
 
 </main>
 
+<!-- FOOTER -->
 <footer class="site-footer">
   <div class="wrapper footer-inner">
     <div>
@@ -187,34 +151,14 @@
       <div class="copyright">©2026 by Lance Treviño</div>
     </div>
 
-    <nav class="footer-nav" aria-label="Footer navigation">
+    <nav class="footer-nav">
       <a href="index.html">Home</a>
       <a href="credits.html">Credits</a>
       <a href="reels.html">Reels</a>
       <a href="news.html">News</a>
     </nav>
-
-    <div class="socials" aria-label="Social links">
-      <a href="https://www.facebook.com/profile.php?id=61552109822847" target="_blank" rel="noopener noreferrer">f</a>
-      <a href="https://www.instagram.com/3winesmusic/" target="_blank" rel="noopener noreferrer">ig</a>
-      <a href="https://www.imdb.com/name/nm4751787/" target="_blank" rel="noopener noreferrer">IMDb</a>
-    </div>
   </div>
 </footer>
-
-<script>
-  const hero = document.querySelector('.hero--wix-home');
-
-  window.addEventListener('scroll', () => {
-    if (!hero) return;
-
-    if (window.scrollY > 80) {
-      hero.classList.add('hero-scrolled');
-    } else {
-      hero.classList.remove('hero-scrolled');
-    }
-  });
-</script>
 
 </body>
 </html>
