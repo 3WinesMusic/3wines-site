@@ -1286,3 +1286,22 @@ html, body {
     background: transparent !important;
   }
 }
+
+/* Hero logo scroll fade / slide effect */
+.hero--wix-home {
+  position: sticky;
+  top: 88px;
+  z-index: 1;
+  transition: opacity .2s ease, transform .2s ease;
+  will-change: opacity, transform;
+}
+
+.hero-wix-home-image {
+  transition: opacity .2s ease, transform .2s ease;
+  will-change: opacity, transform;
+}
+
+.hero--wix-home.hero-scrolled .hero-wix-home-image {
+  opacity: 0;
+  transform: translateY(-80px) scale(.78);
+}
