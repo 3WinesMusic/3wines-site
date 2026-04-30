@@ -1324,3 +1324,17 @@ html, body {
 .read-more-link:hover {
   opacity: 0.6;
 }
+
+.grid-logos {
+  gap: 2rem;
+}
+
+.logo-tile {
+  min-height: 140px;
+  padding: 2rem;
+}
+
+.logo-tile img {
+  max-width: 190px;
+  max-height: 95px;
+}
