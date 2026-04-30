@@ -1344,19 +1344,35 @@ html, body {
   }
 }
 
-.logo-tile img {
-  width: auto !important;
-  height: auto !important;
-  max-width: 300px !important;   /* increase this if you want even bigger */
-  max-height: 200px !important;
-  object-fit: contain !important;
+/* Studio collaborations */
+.grid-logos {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(260px, 1fr)) !important;
+  gap: 3.5rem 4rem !important;
+  justify-items: center !important;
+  align-items: center !important;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .logo-tile {
-  width: 100%;
-  max-width: 220px;   /* controls spacing consistency */
-  height: 140px;      /* consistent row height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 100% !important;
+  height: 190px !important;
+  padding: 1.5rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
+}
+
+.logo-tile img {
+  max-width: 100% !important;
+  max-height: 170px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  background: transparent !important;
 }
