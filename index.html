@@ -269,20 +269,36 @@ const bios = {
   tyler: { name: "Tyler Gonelli", text: "Tyler Gonelli is a composer from Idaho, currently based in Los Angeles, whose work spans film, video games, and concert music. He attended Berklee College of Music and earned a master's degree in music composition from the University of Idaho. His music draws from orchestral, rock, jazz-funk, and video game influences, with a style shaped by composers like John Williams, Joe Hisaishi, Yuki Hayashi, and Alan Silvestri. From short films like Crumble to games such as Farmageddon and Darwin's Demons, Tyler's work blends emotional storytelling with bold musical ideas, creating experiences that resonate long after the final note." }
 };
 function openBio(person) {
+ <script>
+function openBio(person) {
   if (!bios[person]) return;
+
   document.getElementById("bioDrawerName").innerText = bios[person].name;
-  document.getElementById("bioDrawerText").innerText = bios[person].text;
+
+  let content = bios[person].text;
+
+  if (person === "lance") {
+    content += '<br><br><a href="/lance-trevino-page.html" class="read-more-link">Read More...</a>';
+  }
+
+  document.getElementById("bioDrawerText").innerHTML = content;
   document.getElementById("bioDrawer").classList.add("open");
   document.getElementById("bioDrawer").setAttribute("aria-hidden", "false");
 }
+
 function closeBio() {
   document.getElementById("bioDrawer").classList.remove("open");
   document.getElementById("bioDrawer").setAttribute("aria-hidden", "true");
 }
-document.addEventListener("keydown", function(event) { if (event.key === "Escape") closeBio(); });
-document.getElementById("bioDrawer").addEventListener("click", function(event) { if (event.target === this) closeBio(); });
-</script>
 
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Escape") closeBio();
+});
+
+document.getElementById("bioDrawer").addEventListener("click", function(event) {
+  if (event.target === this) closeBio();
+});
+</script>
   <script>
   const hero = document.querySelector('.hero--wix-home');
 
