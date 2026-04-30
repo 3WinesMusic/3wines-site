@@ -265,5 +265,19 @@ document.addEventListener("keydown", function(event) { if (event.key === "Escape
 document.getElementById("bioDrawer").addEventListener("click", function(event) { if (event.target === this) closeBio(); });
 </script>
 
+  <script>
+  const hero = document.querySelector('.hero--wix-home');
+
+  window.addEventListener('scroll', () => {
+    if (!hero) return;
+
+    if (window.scrollY > 80) {
+      hero.classList.add('hero-scrolled');
+    } else {
+      hero.classList.remove('hero-scrolled');
+    }
+  });
+</script>
+  
 </body>
 </html>
