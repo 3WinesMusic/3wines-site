@@ -1347,7 +1347,7 @@ html, body {
 /* Studio collaborations */
 .grid-logos {
   display: grid !important;
-  grid-template-columns: repeat(3, minmax(260px, 1fr)) !important;
+  grid-template-columns: repeat(3, minmax(450px, 1fr)) !important;
   gap: 3.5rem 4rem !important;
   justify-items: center !important;
   align-items: center !important;
@@ -1357,7 +1357,7 @@ html, body {
 
 .logo-tile {
   width: 100% !important;
-  height: 190px !important;
+  height: 380px !important;
   padding: 1.5rem !important;
   display: flex !important;
   align-items: center !important;
