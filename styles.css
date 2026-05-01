@@ -1284,12 +1284,10 @@ html, body {
 
 /* BIG logo */
 .hero-wix-home-image {
-  width: 120vw; /* 👈 makes it HUGE */
   max-width: none;
   height: auto;
   object-fit: contain; /* 👈 prevents cropping */
-  transform: scale(1.1);
-  transition: opacity .8s ease, transform .8s ease;
+  transition: opacity 2s ease, transform 2s ease;
 }
 
 /* scroll state */
