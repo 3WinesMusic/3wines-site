@@ -507,11 +507,11 @@ header.site-header,
 }
 
 .hero-wix-home-image {
-  display: block;
-  width: min(100%, 1366px);
-  max-width: 1366px;
+  width: 70vw;        /* 👈 this is the main control */
+  max-width: 1000px;  /* prevents it from getting too huge */
+  height: auto;
   object-fit: contain;
-  object-position: center center;
+  transform: none;    /* remove the zoom */
   margin: 0 auto;
   background: var(--bg) !important;
 }
