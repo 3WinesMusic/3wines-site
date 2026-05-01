@@ -1374,3 +1374,26 @@ html, body {
   object-fit: contain !important;
   background: transparent !important;
 }
+
+/* ===== HERO FINAL FIX ===== */
+
+/* Stop clipping */
+.lance-hero {
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* Let container size naturally */
+.hero--wix-home {
+  height: auto !important;
+  padding: 3rem 0 !important;
+}
+
+/* Control logo size directly */
+.hero-wix-home-image {
+  width: 65vw !important;      /* 👈 adjust this number only */
+  max-width: 900px !important;
+  height: auto !important;
+  object-fit: contain !important;
+  margin: 0 auto !important;
+}
